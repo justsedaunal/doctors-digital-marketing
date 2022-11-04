@@ -1,0 +1,23 @@
+*,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+}
