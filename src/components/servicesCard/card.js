@@ -11,7 +11,7 @@ const ServicesCard = () => {
           <div key={item.id} id={item.id} className="card">
             <img class="svg" src={Svg} alt={item.alt} />
             <h2 className="card-header"> {item.header} </h2>
-            <p> {item.paragraph} </p>
+            <p class="card-p"> {item.paragraph} </p>
           </div>
         );
       })}

@@ -1,0 +1,14 @@
+.filter-green {
+  filter: invert(27%) sepia(33%) saturate(3594%) hue-rotate(172deg)
+    brightness(101%) contrast(98%);
+}
+
+#flex-direction {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.text-p {
+  margin-bottom: 1rem;
+}

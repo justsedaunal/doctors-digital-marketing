@@ -29,7 +29,7 @@ const ImagesSlider = ({ imagesdata }) => {
     <>
       <div className="tag">{/* <h1>Image Galery</h1> */}</div>
 
-      <div className="imgslider">
+      <div className="imgslider" id="#about-us">
         <Slider {...settings}>
           {imagesdata.map((imagesdata) => (
             <div className="slider-container" key={imagesdata.id}>

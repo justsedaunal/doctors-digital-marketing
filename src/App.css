@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 *,
 h1,
 h2,
@@ -5,14 +6,18 @@ h3 {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", sans-serif;
+}
+h2,
+h4 {
+  color: #3a89a9;
 }
 a {
+  color: inherit;
   text-decoration: none;
 }
-
-body {
-  background-color: #f1f1f1;
+a:hover {
+  color: #666;
 }
 
 .container {
@@ -21,3 +26,7 @@ body {
   margin-left: auto;
   padding: 1rem;
 }
+/* 
+.text-container {
+  display: flex;
+} */

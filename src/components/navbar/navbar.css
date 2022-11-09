@@ -18,6 +18,11 @@
 .navbar-li {
   font-weight: bold;
 }
+navigation-menu li:hover {
+  background-color: #eee;
+  background-color: #bfd5de;
+  font-size: 17px;
+}
 
 .navbar-container ul li span {
   margin-left: 1rem;

@@ -35,7 +35,13 @@ const Navbar = () => {
           <ul className="navbar-ul">
             {navbardata.map((item) => {
               return (
-                <li className="navbar-li" key={item.id}>
+                <li
+                  className="navbar-li"
+                  key={item.id}
+                  onClick={() => {
+                    setIsNavExpanded(!isNavExpanded);
+                  }}
+                >
                   <a href={item.url}>
                     {" "}
                     {item.label} <span className="pipe">|</span>{" "}
