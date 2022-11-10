@@ -14,9 +14,9 @@ function ImageText() {
             </div>
 
             <p className="slider-paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum
+              Using our expertise in the field of health, we are working to make
+              your business more efficient by creating solutions for Web design,
+              Seo, Social media management and all your digital needs.
             </p>
           </div>
         </>

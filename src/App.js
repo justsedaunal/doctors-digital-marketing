@@ -1,26 +1,20 @@
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
-import ImagesSlider from "./components/slider/imagesSlider";
-import ServicesCard from "./components/servicesCard/card";
-import { imagesdata } from "./data/imagesdata";
-import { servicesData } from "./data/servicesData";
-import ImageText from "./components/imageText/imageText";
-import Text from "./components/texts/text";
-import Footer from "./components/footer/footer";
+
+import BlogDetail from "./pages/blog-detail/";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import MainLayout from "./components/layouts/MainLayout";
 
 function App() {
   return (
     <>
-      <div className="container">
-        <Navbar />
-        <ImagesSlider imagesdata={imagesdata} />
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} exact />
 
-        <ServicesCard servicesData={servicesData} />
-        <ImageText />
-        <Text />
-      </div>
-
-      <Footer />
+          <Route path="/blogs/:id" element={<BlogDetail />} />
+        </Route>
+      </Routes>
     </>
   );
 }

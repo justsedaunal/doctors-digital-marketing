@@ -1,14 +1,17 @@
 export const buttonData = [
   {
     id: 1,
-    buttonText: "Explore Now",
+    buttonText: "Explore More",
+    blogHref: "",
   },
   {
     id: 2,
-    buttonText: "Explore For Free",
+    buttonText: "Explore More",
+    blogHref: "",
   },
   {
     id: 3,
-    buttonText: "Boost Now",
+    buttonText: "Explore More",
+    blogHref: "",
   },
 ];
