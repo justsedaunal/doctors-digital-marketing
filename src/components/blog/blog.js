@@ -10,12 +10,12 @@ function Blog() {
   return (
     <>
       {" "}
-      <div className="card-blog-container">
+      <div className="card-blog-container" id="blogs">
         {blogData.map((item) => {
           return (
-            <div class="card-blog" key={item.id}>
+            <div className="card-blog" key={item.id}>
               <img src={item.imgUrl} alt={item.imgAlt} />
-              <div class="content">
+              <div className="content">
                 <h2> {item.header} </h2>
                 <p>
                   {" "}

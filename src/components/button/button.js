@@ -3,7 +3,7 @@ import "./button.css";
 
 const Button = ({ buttonData, href }) => {
   return (
-    <a class="slider-button" href={href}>
+    <a className="slider-button" href={href}>
       {buttonData.buttonText}{" "}
     </a>
   );
